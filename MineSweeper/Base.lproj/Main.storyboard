@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -1106,44 +1106,14 @@
                                     <action selector="minefieldMatrixCellSelected:" target="XfG-lQ-9wD" id="Tfx-1E-rOH"/>
                                 </connections>
                             </matrix>
-                            <popUpButton verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HM1-vF-byB">
-                                <rect key="frame" x="18" y="352" width="112" height="26"/>
-                                <popUpButtonCell key="cell" type="push" title="Beginner" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="4rn-B6-pit" id="bb9-OW-h4w">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" id="Q0b-7H-y84">
-                                        <items>
-                                            <menuItem title="Beginner" state="on" id="4rn-B6-pit">
-                                                <connections>
-                                                    <action selector="levelIndex:" target="XfG-lQ-9wD" id="C1i-LL-Qyd"/>
-                                                </connections>
-                                            </menuItem>
-                                            <menuItem title="Intermediate" id="7xM-Wf-HYt"/>
-                                            <menuItem title="Advanced" id="y9w-oU-W8V"/>
-                                            <menuItem title="Expert" id="UfG-3J-43f"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                                <connections>
-                                    <action selector="levelSelected:" target="XfG-lQ-9wD" id="Nhm-HC-keS"/>
-                                </connections>
-                            </popUpButton>
-                            <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZ3-R1-8Sm">
-                                <rect key="frame" x="239" y="355" width="81" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="999" drawsBackground="YES" id="xaT-Rv-WfE">
-                                    <font key="font" metaFont="system" size="15"/>
-                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="s0q-eh-qcS">
-                                <rect key="frame" x="20" y="344" width="300" height="5"/>
+                                <rect key="frame" x="20" y="344" width="300" height="4"/>
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <font key="titleFont" metaFont="system"/>
                             </box>
                             <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXq-L8-qaY">
-                                <rect key="frame" x="129" y="348" width="108" height="32"/>
+                                <rect key="frame" x="116" y="353" width="108" height="32"/>
                                 <buttonCell key="cell" type="push" title="New Game" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1un-QV-d7p">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1152,16 +1122,30 @@
                                     <action selector="newGame:" target="XfG-lQ-9wD" id="7Tz-Du-g8K"/>
                                 </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgz-uK-vvD">
+                                <rect key="frame" x="18" y="363" width="88" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="MineSweeper" id="iNf-vg-RDh">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZ3-R1-8Sm">
+                                <rect key="frame" x="249" y="359" width="81" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="999" drawsBackground="YES" id="xaT-Rv-WfE">
+                                    <font key="font" metaFont="system" size="15"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="8HQ-sT-jFw" secondAttribute="centerY" constant="-10.5" id="d9o-JQ-otS"/>
                             <constraint firstItem="8HQ-sT-jFw" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="59" id="kLf-af-FFF"/>
-                            <constraint firstItem="CXq-L8-qaY" firstAttribute="leading" secondItem="HM1-vF-byB" secondAttribute="trailing" constant="8" id="vUU-IL-X9I"/>
                             <constraint firstItem="gZ3-R1-8Sm" firstAttribute="leading" secondItem="CXq-L8-qaY" secondAttribute="trailing" constant="8" id="y28-lZ-vcz"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="levelIndex" destination="4rn-B6-pit" id="LgW-8L-Fl2"/>
                         <outlet property="minefieldMatrix" destination="8HQ-sT-jFw" id="RXj-lx-cj0"/>
                         <outlet property="scoreTextField" destination="gZ3-R1-8Sm" id="Src-a5-7sM"/>
                     </connections>
