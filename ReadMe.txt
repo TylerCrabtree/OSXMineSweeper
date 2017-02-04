@@ -1,5 +1,5 @@
 Tyler Crabtree
-Program: cypher.c
+Program: MineSweeper
 Email: crabtree.tyler@gmail.com
 
 
