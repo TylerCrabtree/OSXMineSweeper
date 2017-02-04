@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554B18081ADD8AEE00F27E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B18071ADD8AEE00F27E08 /* AppDelegate.m */; };
+		554B180A1ADD8AEE00F27E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B18091ADD8AEE00F27E08 /* main.m */; };
+		554B180D1ADD8AEE00F27E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B180C1ADD8AEE00F27E08 /* ViewController.m */; };
+		554B180F1ADD8AEE00F27E08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554B180E1ADD8AEE00F27E08 /* Images.xcassets */; };
+		554B18121ADD8AEE00F27E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554B18101ADD8AEE00F27E08 /* Main.storyboard */; };
+		554E11D81AE02C050028F607 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E11D51AE02C050028F607 /* Cell.m */; };
+		554E11D91AE02C050028F607 /* MineField.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E11D71AE02C050028F607 /* MineField.m */; };
+		55BB40171AE6C744004A11A1 /* MyMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB40161AE6C744004A11A1 /* MyMatrix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554B18181ADD8AEE00F27E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554B17F91ADD8AEE00F27E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554B18001ADD8AEE00F27E08;
+			remoteInfo = MineSweeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		554B18011ADD8AEE00F27E08 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554B18051ADD8AEE00F27E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554B18061ADD8AEE00F27E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		554B18071ADD8AEE00F27E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		554B18091ADD8AEE00F27E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		554B180B1ADD8AEE00F27E08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		554B180C1ADD8AEE00F27E08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		554B180E1ADD8AEE00F27E08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		554B18111ADD8AEE00F27E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554B18171ADD8AEE00F27E08 /* MineSweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554E11D41AE02C050028F607 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		554E11D51AE02C050028F607 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		554E11D61AE02C050028F607 /* MineField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineField.h; sourceTree = "<group>"; };
+		554E11D71AE02C050028F607 /* MineField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineField.m; sourceTree = "<group>"; };
+		55BB40151AE6C744004A11A1 /* MyMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMatrix.h; sourceTree = "<group>"; };
+		55BB40161AE6C744004A11A1 /* MyMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMatrix.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554B17FE1ADD8AEE00F27E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554B18141ADD8AEE00F27E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554B17F81ADD8AEE00F27E08 = {
+			isa = PBXGroup;
+			children = (
+				554B18031ADD8AEE00F27E08 /* MineSweeper */,
+				554B18021ADD8AEE00F27E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554B18021ADD8AEE00F27E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554B18011ADD8AEE00F27E08 /* MineSweeper.app */,
+				554B18171ADD8AEE00F27E08 /* MineSweeperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554B18031ADD8AEE00F27E08 /* MineSweeper */ = {
+			isa = PBXGroup;
+			children = (
+				554B18061ADD8AEE00F27E08 /* AppDelegate.h */,
+				554B18071ADD8AEE00F27E08 /* AppDelegate.m */,
+				554B180B1ADD8AEE00F27E08 /* ViewController.h */,
+				554B180C1ADD8AEE00F27E08 /* ViewController.m */,
+				55BB40151AE6C744004A11A1 /* MyMatrix.h */,
+				55BB40161AE6C744004A11A1 /* MyMatrix.m */,
+				554E11D41AE02C050028F607 /* Cell.h */,
+				554E11D51AE02C050028F607 /* Cell.m */,
+				554E11D61AE02C050028F607 /* MineField.h */,
+				554E11D71AE02C050028F607 /* MineField.m */,
+				554B180E1ADD8AEE00F27E08 /* Images.xcassets */,
+				554B18101ADD8AEE00F27E08 /* Main.storyboard */,
+				554B18041ADD8AEE00F27E08 /* Supporting Files */,
+			);
+			path = MineSweeper;
+			sourceTree = "<group>";
+		};
+		554B18041ADD8AEE00F27E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554B18051ADD8AEE00F27E08 /* Info.plist */,
+				554B18091ADD8AEE00F27E08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554B18001ADD8AEE00F27E08 /* MineSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554B18211ADD8AEE00F27E08 /* Build configuration list for PBXNativeTarget "MineSweeper" */;
+			buildPhases = (
+				554B17FD1ADD8AEE00F27E08 /* Sources */,
+				554B17FE1ADD8AEE00F27E08 /* Frameworks */,
+				554B17FF1ADD8AEE00F27E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper;
+			productName = MineSweeper;
+			productReference = 554B18011ADD8AEE00F27E08 /* MineSweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		554B18161ADD8AEE00F27E08 /* MineSweeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554B18241ADD8AEE00F27E08 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */;
+			buildPhases = (
+				554B18131ADD8AEE00F27E08 /* Sources */,
+				554B18141ADD8AEE00F27E08 /* Frameworks */,
+				554B18151ADD8AEE00F27E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554B18191ADD8AEE00F27E08 /* PBXTargetDependency */,
+			);
+			name = MineSweeperTests;
+			productName = MineSweeperTests;
+			productReference = 554B18171ADD8AEE00F27E08 /* MineSweeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554B17F91ADD8AEE00F27E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Wayne O. Cochran";
+				TargetAttributes = {
+					554B18001ADD8AEE00F27E08 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					554B18161ADD8AEE00F27E08 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 554B18001ADD8AEE00F27E08;
+					};
+				};
+			};
+			buildConfigurationList = 554B17FC1ADD8AEE00F27E08 /* Build configuration list for PBXProject "MineSweeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554B17F81ADD8AEE00F27E08;
+			productRefGroup = 554B18021ADD8AEE00F27E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554B18001ADD8AEE00F27E08 /* MineSweeper */,
+				554B18161ADD8AEE00F27E08 /* MineSweeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554B17FF1ADD8AEE00F27E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554B180F1ADD8AEE00F27E08 /* Images.xcassets in Resources */,
+				554B18121ADD8AEE00F27E08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554B18151ADD8AEE00F27E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554B17FD1ADD8AEE00F27E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554B180D1ADD8AEE00F27E08 /* ViewController.m in Sources */,
+				554E11D81AE02C050028F607 /* Cell.m in Sources */,
+				554B180A1ADD8AEE00F27E08 /* main.m in Sources */,
+				554E11D91AE02C050028F607 /* MineField.m in Sources */,
+				55BB40171AE6C744004A11A1 /* MyMatrix.m in Sources */,
+				554B18081ADD8AEE00F27E08 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554B18131ADD8AEE00F27E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554B18191ADD8AEE00F27E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554B18001ADD8AEE00F27E08 /* MineSweeper */;
+			targetProxy = 554B18181ADD8AEE00F27E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554B18101ADD8AEE00F27E08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554B18111ADD8AEE00F27E08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554B181F1ADD8AEE00F27E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		554B18201ADD8AEE00F27E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		554B18221ADD8AEE00F27E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		554B18231ADD8AEE00F27E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		554B18251ADD8AEE00F27E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSweeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/Contents/MacOS/MineSweeper";
+			};
+			name = Debug;
+		};
+		554B18261ADD8AEE00F27E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSweeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/Contents/MacOS/MineSweeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554B17FC1ADD8AEE00F27E08 /* Build configuration list for PBXProject "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554B181F1ADD8AEE00F27E08 /* Debug */,
+				554B18201ADD8AEE00F27E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554B18211ADD8AEE00F27E08 /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554B18221ADD8AEE00F27E08 /* Debug */,
+				554B18231ADD8AEE00F27E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554B18241ADD8AEE00F27E08 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554B18251ADD8AEE00F27E08 /* Debug */,
+				554B18261ADD8AEE00F27E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554B17F91ADD8AEE00F27E08 /* Project object */;
+}
